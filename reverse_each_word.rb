@@ -3,7 +3,7 @@
 #Understand the return value of the .collect method
 #Use the return of collect for further operation
 def reverse_each_word(sentence)
-sentence.split.each {|word| word.reverse}.join(" ")
+sentence.split.collect {|word| word.reverse}.join(" ")
 #sentence2 = []
 #sentence.each do |word|
   #sentence.split
