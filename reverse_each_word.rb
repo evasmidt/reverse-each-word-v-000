@@ -10,4 +10,4 @@ sentence.split.collect {|word| word.reverse}.join(" ")
   #sentence2.reverse
 end
 #sentence2
-end
+#end
