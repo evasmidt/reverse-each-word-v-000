@@ -4,6 +4,8 @@
 #Use the return of collect for further operation
 def reverse_each_word(sentence = "Hello there, and how are you?")
 
-  sentence.split
-  sentence.reverse
+sentence2 = []
+sentence.each do |word|
+  #sentence.split
+  sentence2.reverse
 end
